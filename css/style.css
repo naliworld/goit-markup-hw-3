@@ -1,0 +1,331 @@
+/* Website colors */
+:root {
+    --accent-text-color: #2e2f42;
+    --accent-text-color-two: #4D5ae5;
+    --color-of-paragraphs: #434455;
+    --accent-color-three: #F4F4FD;
+    --color-of-paragraphs-two: #E7E9FC;
+    --color-of-button:#404BBF;
+    --background-color-etc: #FFFFFF;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--accent-color-three);
+    background: var(--background-color-etc);
+}
+
+
+/* Links */
+a {
+    text-decoration: none;
+    color: var(--accent-text-color);
+    cursor: pointer;
+}
+ 
+
+
+/* Header */
+
+/* Header Logo */
+
+
+.header-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--accent-text-color-two);
+    text-transform: uppercase;
+}
+
+.header-studio {
+    color: var(--accent-text-color);
+}
+
+/* Header List */
+
+.header-list {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--accent-text-color);
+    list-style: none;
+}
+
+.header-lists {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.header-lists:hover,
+.header-lists:focus {
+    color: var(--color-of-button);
+}
+
+/* Header address */
+
+.header-adress-c {
+    margin-top: 24px;
+    text-decoration: none;
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 400;
+    list-style: none;
+    letter-spacing: 0.02cm;
+}
+
+
+.header-adress-name {
+   color: var(--color-of-paragraphs);
+}
+
+.header-adress-name:hover,
+.header-adress-name:focus {
+    color: var(--color-of-button);
+}
+
+/*Section 1*/
+.hero {
+    background: var(--accent-text-color);
+}
+
+.hero-title {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: var(--background-color-etc);
+}
+
+.hero-button {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--background-color-etc);
+    background-color: var(--accent-text-color-two);
+    transition-duration: 0.4s;
+    list-style: none;
+}
+
+.hero-button:hover,
+.hero.button:focus {
+    background-color: var(--color-of-button);
+}
+
+.hero-button{
+    cursor: pointer;
+}
+
+
+/* Section 2 */
+
+.section-title {
+    font-size: 24px;
+    text-decoration: none;
+    color: var(--accent-text-color);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.section-list {
+    list-style: none;
+    text-decoration: none;
+    color: var(--accent-text-color);
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 0;
+}
+
+.section-p {
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-of-paragraphs);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding: 0;
+}
+
+/*Section 3*/
+
+.info-title {
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--accent-text-color);
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    line-height: 30px;
+}
+
+/*Section 4*/
+
+.team {
+    background: var(--accent-color-three);
+}
+
+.team-title {
+    font-style: normal;
+    font-family: inherit ;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--accent-text-color);
+}
+
+.team-members {
+    list-style: none;
+    padding: 0;
+    line-height: 30px;
+}
+
+.team-name {
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--accent-text-color);
+    background: var(--background-color-etc);
+}
+
+.team-position {
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-of-paragraphs);
+}
+
+/*Footer*/
+
+.footer {
+    background: var(--accent-text-color)
+}
+
+/*Footer logo*/ 
+
+.footer-web {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color:var(--accent-text-color-two);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--color-of-paragraphs-two);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-desc {
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-of-paragraphs-two);
+}
+
+/* Portfolio Page 2 */
+
+/* Buttons */
+
+
+.buttons-items{
+    list-style: none;
+}
+
+.buttons-listing {
+    color: var(--accent-text-color-two);
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border: 1px solid var(--color-of-paragraphs-two);
+    background-color: var(--accent-color-three);
+    text-decoration: none;
+}
+
+.buttons-listing:hover,
+.buttons-listing:focus {
+    color: var(--background-color-etc);
+    background-color: var(--accent-text-color-two);
+}
+
+.buttons-listing.cursor{
+    cursor: pointer;
+}
+
+
+
+/* Portfolio Section 2*/
+
+.portfolio-title {
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--accent-text-color);
+}
+
+.portfolio-list {
+    list-style: none;
+    padding: 0;
+    line-height: 30px;
+}
+
+.portfolio-type {
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: var(--color-of-paragraphs);
+}
+
+.portfolio-subtitle {
+    font-style: normal;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--accent-text-color);
+}
