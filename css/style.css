@@ -35,7 +35,7 @@ a {
 *::after {
     box-sizing: border-box;
 }
-.box-header{
+.container-header{
 display: flex;
 flex-direction: row;
 box-sizing: border-box;
