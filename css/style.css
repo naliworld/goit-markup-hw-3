@@ -30,6 +30,11 @@ a {
 
 /* Header Logo */
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 .box-header{
 display: flex;
 flex-direction: row;
@@ -62,6 +67,7 @@ padding-right: 15px;
     line-height: 24px;
     color: var(--accent-text-color);
     list-style: none;
+    display: inline;
 }
 
 .header-lists {
