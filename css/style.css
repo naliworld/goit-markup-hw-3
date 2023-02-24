@@ -42,6 +42,7 @@ box-sizing: border-box;
 margin: 0auto;
 padding-left: 15px;
 padding-right: 15px;
+border: solid;
 }
 .header-web {
     font-family: 'Raleway';
@@ -68,12 +69,14 @@ padding-right: 15px;
     color: var(--accent-text-color);
     list-style: none;
     display: inline-block;
+    flex-direction: row;
 }
 
 .header-lists {
     order: 0;
     flex-grow: 0;
     display: inline-block;
+   flex-direction: row;
 }
 
 .header-lists:hover,
@@ -92,12 +95,14 @@ padding-right: 15px;
     list-style: none;
     letter-spacing: 0.02cm;
     display: inline-block;
+    flex-direction: row;
 }
 
 
 .header-adress-name {
    color: var(--color-of-paragraphs);
    display: inline-block;
+   flex-direction: row;
 }
 
 .header-adress-name:hover,
