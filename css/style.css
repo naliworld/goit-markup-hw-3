@@ -65,7 +65,6 @@ padding-right: 15px;
 }
 
 .header-lists {
-    flex: none;
     order: 0;
     flex-grow: 0;
 }
