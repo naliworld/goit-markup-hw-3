@@ -31,6 +31,8 @@ a {
 /* Header Logo */
 
 .box-header{
+display: flex;
+flex-direction: row;
 width: 1158px;
 margin: 0auto;
 padding-left: 15px;
