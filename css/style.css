@@ -82,6 +82,9 @@ border-width: 0.2px;
     order: 0;
     flex-grow: 0;
     display: inline;
+    gap: 4px;
+    padding: 24px 832px 24px 347px;
+
 }
 
 .header-lists:hover,
