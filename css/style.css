@@ -360,14 +360,13 @@ outline-width: 2px;
     font-size: 36px;
     line-height: 40px;
     color: var(--accent-text-color);
-    text-align: center;
+   
 }
 
 .portfolio-list {
     list-style: none;
     padding: 0;
     line-height: 30px;
-    display: flex;
 }
 
 .portfolio-name{
