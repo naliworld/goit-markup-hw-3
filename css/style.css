@@ -79,6 +79,7 @@ border-width: 1px;
 
 .header-lists {
   display: flex;
+  margin-right: 40px;
 }
 
 .header-lists:hover,
