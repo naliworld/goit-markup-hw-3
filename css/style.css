@@ -82,6 +82,10 @@ border-width: 1px;
   margin-right: 40px;
 }
 
+.header-lists:last-child{
+    margin-right: 0;
+}
+
 .header-lists:hover,
 .header-lists:focus {
     color: var(--color-of-button);
