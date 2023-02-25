@@ -326,6 +326,8 @@ display: flex;
     border: 1px solid var(--color-of-paragraphs-two);
     background-color: var(--accent-color-three);
     text-decoration: none;
+    display: block;
+    padding: 12px 24px;
 }
 
 .buttons-listing:hover,
