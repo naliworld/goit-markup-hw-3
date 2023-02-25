@@ -80,12 +80,14 @@ align-items: center;
     color: var(--accent-text-color);
     list-style: none;
     margin-left: 70px;
+    display: flex;
 }
 
 .header-lists {
   margin-right: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: flex;
 }
 
 .header-lists:last-child{
@@ -113,7 +115,8 @@ align-items: center;
     letter-spacing: 0.02cm;
     padding-top: 24px;
     padding-bottom: 24px;
-    display: inline;
+    display: flex
+    margin-left: auto;
 }
 
 
@@ -123,7 +126,7 @@ align-items: center;
    padding-top: 24px;
    padding-bottom: 24px;
    margin-left: 12px;
-   display: inline;
+   display: flex;
 }
 .header-adress-name:last-child{
     margin-right: 0px;
