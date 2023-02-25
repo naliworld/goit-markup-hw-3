@@ -75,11 +75,11 @@ border-width: 1px;
     line-height: 24px;
     color: var(--accent-text-color);
     list-style: none;
+    display: flex;
 }
 
 .header-lists {
-    order: 0;
-    flex-grow: 0;
+  
 }
 
 .header-lists:hover,
