@@ -36,7 +36,9 @@ a {
 /* Header */
 
 /* Header Logo */
-
+.header{
+    display: flex;
+}
 
 .container{
 max-width: 1158px;
