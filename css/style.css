@@ -44,6 +44,7 @@ margin: 0 auto;
 padding: 0 15px;
 display: flex;
 outline: tomato;
+outline-width: 2px;
 }
 
 .header-web {
