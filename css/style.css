@@ -90,9 +90,7 @@ border-width: 0.2px;
 }
 
 /* Header address */
-.header-adress{
-    display: inline;
-}
+
 .header-adress-c {
     margin-top: 24px;
     text-decoration: none;
@@ -101,11 +99,13 @@ border-width: 0.2px;
     font-weight: 400;
     list-style: none;
     letter-spacing: 0.02cm;
+    display: inline;
 }
 
 
 .header-adress-name {
    color: var(--color-of-paragraphs);
+   display: inline;
 }
 
 .header-adress-name:hover,
