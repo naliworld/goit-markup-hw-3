@@ -45,7 +45,6 @@ max-width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
 display: flex;
-align-items: center;
 }
 
 .header-web {
@@ -115,8 +114,7 @@ align-items: center;
     letter-spacing: 0.02cm;
     padding-top: 24px;
     padding-bottom: 24px;
-    display: flex
-    margin-left: auto;
+    display: flex;
 }
 
 
