@@ -43,7 +43,7 @@ width: 1158px;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
-border-width: 0.2px;
+border-width: 1px;
 
 }
 
@@ -65,7 +65,6 @@ border-width: 0.2px;
 
 .header-nav{
     display: flex;
-    align-items: center;
 }
 
 .header-list {
@@ -81,10 +80,6 @@ border-width: 0.2px;
 .header-lists {
     order: 0;
     flex-grow: 0;
-    display: inline;
-    gap: 4px;
-    padding: 24px 832px 24px 347px;
-
 }
 
 .header-lists:hover,
@@ -102,13 +97,11 @@ border-width: 0.2px;
     font-weight: 400;
     list-style: none;
     letter-spacing: 0.02cm;
-    display: inline;
 }
 
 
 .header-adress-name {
    color: var(--color-of-paragraphs);
-   display: inline;
 }
 
 .header-adress-name:hover,
