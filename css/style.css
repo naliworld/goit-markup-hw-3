@@ -50,6 +50,7 @@ display: flex;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
+    line-height: 21px;
     color: var(--accent-text-color-two);
     text-transform: uppercase;
     padding-top: 24px;
