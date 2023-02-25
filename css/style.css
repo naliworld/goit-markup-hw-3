@@ -52,6 +52,8 @@ padding: 0 15px;
     line-height: 21px;
     color: var(--accent-text-color-two);
     text-transform: uppercase;
+    padding-top: 24px;
+    padding-bottom: 24pxx;
 }
 
 .header-studio {
@@ -77,6 +79,8 @@ padding: 0 15px;
 
 .header-lists {
   margin-right: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-lists:last-child{
@@ -103,12 +107,16 @@ padding: 0 15px;
     list-style: none;
     letter-spacing: 0.02cm;
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
 .header-adress-name {
    color: var(--color-of-paragraphs);
    margin-right:40px ;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 .header-adress-name:last-child{
     margin-right: 0px;
