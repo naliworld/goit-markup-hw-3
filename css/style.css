@@ -81,21 +81,14 @@ border-width: 0.2px;
 .header-lists {
     order: 0;
     flex-grow: 0;
+    display: inline;
 }
 
 .header-lists:hover,
 .header-lists:focus {
     color: var(--color-of-button);
 }
-.header-lists-studio{
-  display: inline;
-}
-.header-lists-portfolio{
-    display: inline;
-}
-.header-lists-contacts{
-    display: inline;
-}
+
 /* Header address */
 
 .header-adress-c {
