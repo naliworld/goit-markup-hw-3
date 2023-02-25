@@ -43,6 +43,7 @@ width: 1158px;
 margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
+border-width: 0.2px;
 
 }
 
@@ -75,11 +76,13 @@ padding-right: 15px;
     line-height: 24px;
     color: var(--accent-text-color);
     list-style: none;
+    display: inline;
 }
 
 .header-lists {
     order: 0;
     flex-grow: 0;
+    display: inline;
 }
 
 .header-lists:hover,
