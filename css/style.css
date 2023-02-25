@@ -93,6 +93,10 @@ border-width: solid;
 
 /* Header address */
 
+.header-adress{
+    display: flex;
+}
+
 .header-adress-c {
     margin-top: 24px;
     text-decoration: none;
