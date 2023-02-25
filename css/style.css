@@ -133,10 +133,10 @@ display: flex;
 /*Section 1*/
 .hero {
     background: var(--accent-text-color);
-    padding-top: 188px ;
-    padding-bottom: 292px ;
-    padding-right: 698px;
-    padding-left: 473px;
+    padding-top: 45px ;
+    padding-bottom: 52px ;
+    padding-right: 76px;
+    padding-left: 76px;
 }
 
 .hero-title {
