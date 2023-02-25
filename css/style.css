@@ -38,7 +38,6 @@ a {
 /* Header Logo */
 .header{
     display: flex;
-    justify-content: space-between;
 }
 
 .container{
@@ -78,7 +77,7 @@ display: flex;
     line-height: 24px;
     color: var(--accent-text-color);
     list-style: none;
-    display: flex;
+    margin-left: 70px;
 }
 
 .header-lists {
@@ -99,7 +98,6 @@ display: flex;
 /* Header address */
 
 .header-adress{
-    display: flex;
 }
 
 .header-adress-c {
@@ -111,14 +109,12 @@ display: flex;
     line-height: 24px;
     list-style: none;
     letter-spacing: 0.02cm;
-    display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
 
 .header-adress-name {
-    display: flex;
    color: var(--color-of-paragraphs);
    margin-right:40px ;
    padding-top: 24px;
