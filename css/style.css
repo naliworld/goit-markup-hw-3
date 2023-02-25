@@ -113,6 +113,7 @@ padding: 0 15px;
 
 
 .header-adress-name {
+    display: flex;
    color: var(--color-of-paragraphs);
    margin-right:40px ;
    padding-top: 24px;
