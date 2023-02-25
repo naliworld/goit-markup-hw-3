@@ -45,6 +45,7 @@ max-width: 1158px;
 margin: 0 auto;
 padding: 0 15px;
 display: flex;
+align-items: center;
 }
 
 .header-web {
@@ -66,7 +67,8 @@ display: flex;
 /* Header List */
 
 .header-nav{
-    display: inline;
+    display: flex;
+    align-items: center;
 }
 
 .header-list {
