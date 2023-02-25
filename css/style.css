@@ -314,6 +314,7 @@ display: flex;
 
 .buttons-items{
     list-style: none;
+    display: inline;
 }
 
 .buttons-listing {
