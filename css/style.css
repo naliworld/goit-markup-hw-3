@@ -75,10 +75,10 @@ border-width: 1px;
     line-height: 24px;
     color: var(--accent-text-color);
     list-style: none;
+    display: flex;
 }
 
 .header-lists {
-  display: flex;
   margin-right: 40px;
 }
 
