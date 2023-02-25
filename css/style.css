@@ -66,7 +66,7 @@ display: flex;
 /* Header List */
 
 .header-nav{
-    display: flex;
+    display: inline;
 }
 
 .header-list {
@@ -111,6 +111,7 @@ display: flex;
     letter-spacing: 0.02cm;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: inline;
 }
 
 
@@ -120,6 +121,7 @@ display: flex;
    padding-top: 24px;
    padding-bottom: 24px;
    margin-left: 12px;
+   display: inline;
 }
 .header-adress-name:last-child{
     margin-right: 0px;
