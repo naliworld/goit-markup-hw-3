@@ -9,6 +9,11 @@
     --background-color-etc: #FFFFFF;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -23,27 +28,24 @@ a {
     color: var(--accent-text-color);
     cursor: pointer;
 }
- 
+ img{
+    display: block;
+ }
 
 
 /* Header */
 
 /* Header Logo */
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 .container-header{
-display: flex;
-flex-direction: row;
-box-sizing: border-box;
-margin: 0auto;
+width: 1158px;
+margin: 0 auto;
 padding-left: 15px;
 padding-right: 15px;
-border: solid;
+
 }
+
 .header-web {
     font-family: 'Raleway';
     font-style: normal;
@@ -60,6 +62,11 @@ border: solid;
 
 /* Header List */
 
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
 .header-list {
     font-family: inherit;
     font-style: normal;
@@ -68,22 +75,26 @@ border: solid;
     line-height: 24px;
     color: var(--accent-text-color);
     list-style: none;
-    display: inline-block;
-    flex-direction: row;
 }
 
 .header-lists {
     order: 0;
     flex-grow: 0;
-    display: inline-block;
-   flex-direction: row;
 }
 
 .header-lists:hover,
 .header-lists:focus {
     color: var(--color-of-button);
 }
-
+.header-lists-studio{
+  display: inline;
+}
+.header-lists-portfolio{
+    display: inline;
+}
+.header-lists-contacts{
+    display: inline;
+}
 /* Header address */
 
 .header-adress-c {
@@ -94,15 +105,11 @@ border: solid;
     font-weight: 400;
     list-style: none;
     letter-spacing: 0.02cm;
-    display: inline-block;
-    flex-direction: row;
 }
 
 
 .header-adress-name {
    color: var(--color-of-paragraphs);
-   display: inline-block;
-   flex-direction: row;
 }
 
 .header-adress-name:hover,
