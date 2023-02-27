@@ -37,24 +37,24 @@ a {
 
 /* Header Logo */
 .header{
-display: flex;
-align-items: center;
+
 }
 
 /* Containers*/
 /* Header*/
 .container {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+   display: flex;
+   width: 1158px;
+   margin: 0 auto;
+   padding: 0 15px;
     
     
 }
 .container-container-header{
-   display: flex;
-   margin: auto;
-   padding-top: 0px;
-   justify-content: space-between;
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 
@@ -71,6 +71,7 @@ align-items: center;
     text-transform: uppercase;
     padding-top: 24px;
     padding-bottom: 20px;
+    margin-right: 74px;
 }
 
 .header-studio {
@@ -93,11 +94,14 @@ align-items: center;
     color: var(--accent-text-color);
     list-style: none;
     margin: 0;
+    padding: 0;
     display: flex;
+    gap: 40px;
 }
 
+
 .header-lists {
- padding: 24px;
+ padding: 24px 0;
  margin: 0;
 }
 
@@ -114,6 +118,10 @@ align-items: center;
 /* Header address */
 
 
+.header-adress{
+margin-left: auto;
+
+}
 
 .header-adress-c {
     text-decoration: none;
@@ -126,12 +134,12 @@ align-items: center;
     padding: 0;
     margin: 0;
     display: flex;
+    gap: 40px;
 }
 
 
 .header-adress-name {
    color: var(--color-of-paragraphs);
-   margin-left: 12px;
    padding-bottom: 24px;
    padding-top: 24px;
    display: block;
@@ -140,7 +148,7 @@ align-items: center;
 
 
 .header-adress-name:last-child {
-    margin-right: 0px;
+ margin: 0;
 }
 
 .header-adress-name:hover,
@@ -348,34 +356,26 @@ align-items: center;
 /*Footer*/
 
 
-.footer-sec{
+
+.footer{
     background: var(--accent-text-color);
     width: 1129px;
     padding-top: 100px;
-        padding-bottom: 100px;
-}
-.footer{
+    padding-bottom: 100px;
     display: flex;
-    justify-content: center;
     margin: 0 auto;
-
-    
+    justify-content: center;
 }
-
-
-
 
 
 /*Footer logo*/ 
-
-
 
 .footer-web {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 24px;
     color:var(--accent-text-color-two);
     text-transform: uppercase;
     text-decoration: none;
@@ -386,7 +386,7 @@ align-items: center;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 24px;
     color: var(--color-of-paragraphs-two);
     text-transform: uppercase;
     text-decoration: none;
@@ -401,7 +401,8 @@ align-items: center;
     line-height: 24px;
     color: var(--color-of-paragraphs-two);
     width: 264px;
-    height: 72px;
+    padding-top: 16px ;
+    margin-left: 0;
 }
 
 /* Portfolio Page 2 */
