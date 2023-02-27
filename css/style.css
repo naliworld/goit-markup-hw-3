@@ -37,22 +37,23 @@ a {
 
 /* Header Logo */
 .header{
-    display: flex;
+display: flex;
+align-items: center;
 }
+
 /* Containers*/
 /* Header*/
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    display: flex;
+    padding: 0 15px;
+    
     
 }
 .container-container-header{
    display: flex;
    margin: auto;
    padding-top: 0px;
-   height: 72px;
-   width: 1158px;
    justify-content: space-between;
 }
 
@@ -70,7 +71,6 @@ a {
     text-transform: uppercase;
     padding-top: 24px;
     padding-bottom: 20px;
-    display: flex;
 }
 
 .header-studio {
@@ -80,8 +80,8 @@ a {
 /* Header List */
 
 .header-nav{
-    display: flex;
-    align-items: center;
+   display: flex;
+   align-items: center;
 }
 
 .header-list {
@@ -92,17 +92,15 @@ a {
     line-height: 24px;
     color: var(--accent-text-color);
     list-style: none;
-    margin-left: 70px;
+    margin: 0;
     display: flex;
 }
 
 .header-lists {
-  margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 20px;
-  display: flex;
-  align-items: center;
+ padding: 24px;
+ margin: 0;
 }
+
 
 .header-lists:last-child{
     margin-right: 0;
@@ -118,7 +116,6 @@ a {
 
 
 .header-adress-c {
-    margin-top: 24px;
     text-decoration: none;
     font-style: normal;
     font-family: inherit;
@@ -126,17 +123,23 @@ a {
     line-height: 24px;
     list-style: none;
     letter-spacing: 0.02cm;
+    padding: 0;
+    margin: 0;
     display: flex;
 }
 
 
 .header-adress-name {
    color: var(--color-of-paragraphs);
-   margin-right:40px ;
    margin-left: 12px;
-   display: flex;
+   padding-bottom: 24px;
+   padding-top: 24px;
+   display: block;
 }
-.header-adress-name:last-child{
+
+
+
+.header-adress-name:last-child {
     margin-right: 0px;
 }
 
@@ -148,11 +151,8 @@ a {
 /*Section 1*/
 .hero {
     background: var(--accent-text-color);
-    padding-top: 20px ;
-    padding-bottom: 35px ;
-    padding-right: auto;
-    padding-left: auto;
-    width: 1158px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     text-align: center;
 }
 
@@ -217,7 +217,6 @@ a {
 
 .section-list {
     list-style: none;
-    text-decoration: none;
     color: var(--accent-text-color);
     font-style: normal;
     font-family: inherit;
@@ -225,14 +224,13 @@ a {
     line-height: 24px;
     font-size: 20px;
     padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
-    padding: 24px;
+   
 }
 .section-items {
     margin-right: 40px;
     padding-top: 0px;
-    padding-bottom: 20px;
 }
 
 .section-items:last-child {
@@ -259,6 +257,8 @@ a {
     color: var(--accent-text-color);
     display: flex;
    justify-content: center;
+   padding-top: 37px;
+   padding-bottom: 72px;
 }
 
 .card-set-info-list {
@@ -273,12 +273,12 @@ a {
 }
 .info-lists{
     margin-bottom: 48px;
+    padding-bottom: 120px;
 }
 /*Section 4*/
 
 .team {
     background: var(--accent-color-three);
-    width: 1158px;
     padding-bottom: 72px;
 }
 
@@ -291,6 +291,7 @@ a {
     color: var(--accent-text-color);
     display: flex;
     justify-content: center;
+    padding-top: 120px;
 
 }
 
@@ -302,7 +303,7 @@ a {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    padding-bottom: 72px;
+    padding-bottom: 120px;
 
 }
 
@@ -349,13 +350,15 @@ a {
 
 .footer-sec{
     background: var(--accent-text-color);
-    width: 1158px;
+    width: 1129px;
+    padding-top: 100px;
+        padding-bottom: 100px;
 }
 .footer{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding-top: 0px;
+
     
 }
 
@@ -387,6 +390,7 @@ a {
     color: var(--color-of-paragraphs-two);
     text-transform: uppercase;
     text-decoration: none;
+
 }
 
 .footer-desc {
@@ -396,6 +400,8 @@ a {
     font-size: 16px;
     line-height: 24px;
     color: var(--color-of-paragraphs-two);
+    width: 264px;
+    height: 72px;
 }
 
 /* Portfolio Page 2 */
@@ -408,6 +414,8 @@ a {
 
 .buttons-list{
     padding-left: 310px;
+    padding-top: 96px;
+    padding-bottom: 90px;
 }
 
 .buttons-items{
@@ -463,7 +471,7 @@ a {
     gap: 10px;
     justify-content: center;
     padding-top: 72px;
-    padding-bottom: 48px;
+    padding-bottom: 120px;
 }
 
 .portfolio-name{
