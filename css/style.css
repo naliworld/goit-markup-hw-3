@@ -56,10 +56,6 @@ a {
     padding: 0 15px;
 }
 
-
-
-
-
 .header-web {
     font-family: 'Raleway';
     font-style: normal;
@@ -158,17 +154,17 @@ margin-left: auto;
 /*Section 1*/
 
 .container-container-section {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    justify-content: center;
 }
 
 .hero {
     background: var(--accent-text-color);
     padding-top: 188px;
     padding-bottom: 188px;
-    text-align: center;
+    justify-content: center;
 }
 
 .hero-title {
@@ -179,10 +175,13 @@ margin-left: auto;
     line-height: 60px;
     color: var(--background-color-etc);
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     height: 120px;
     width: 494px;
-    margin-left: 473px;
+    align-items: center;
+    
 }
 
 .hero-button {
@@ -195,9 +194,11 @@ margin-left: auto;
     transition-duration: 0.4s;
     list-style: none;
     border-radius: 4px;
-    padding: 16px;
-    padding-left: 20px;
-    margin-left: 40px;
+    padding: 16px 32px;
+    display: flex;
+    margin-left: 495px;
+    border: transparent;
+    
 }
 
 .hero-button:hover,
@@ -211,6 +212,12 @@ margin-left: auto;
 
 
 /* Section 2 */
+.container-container-advantages{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+}
 
 .section-title {
     font-size: 24px;
@@ -244,15 +251,17 @@ margin-left: auto;
     font-size: 20px;
     padding: 0;
     display: flex;
-    margin-left: 156px;
-    margin-right: 156px;
-    margin-top: 164px;
-    margin-bottom: 16px;
+    justify-content: center;
+   
    
 }
 .section-items {
     margin-right: 40px;
     padding-top: 0px;
+    margin-left: 40px;
+    margin-right: 30px
+    margin-bottom: 84px;
+    margin-top: 120px;
 }
 
 .section-items:last-child {
@@ -269,6 +278,12 @@ margin-left: auto;
 }
 
 /*Section 3*/
+.container-container-info{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+}
 
 .info-title {
     font-style: normal;
@@ -292,14 +307,19 @@ margin-left: auto;
     justify-content: center;
     gap: 10px;
     padding: 10px;
-    margin-left: 156px;
-    margin-right: 156px;
 }
 .info-lists{
     margin-bottom: 48px;
     padding-bottom: 120px;
 }
 /*Section 4*/
+.container-container-team{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+}
+
 
 .team {
     background: var(--accent-color-three);
@@ -316,6 +336,7 @@ margin-left: auto;
     display: flex;
     justify-content: center;
     padding-top: 120px;
+    padding-bottom: 72px;
 
 }
 
@@ -371,6 +392,12 @@ margin-left: auto;
 
 /*Footer*/
 
+.container-container-footer{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+}
 
 
 .footer{
@@ -424,22 +451,32 @@ margin-left: auto;
 
 /* Buttons */
 
+.container-container-portfolio{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+}
+
 .portfolio-title{
     visibility: hidden;
 }
 
 .buttons-list{
-    margin-left: 427px;
-    padding-top: 168px;
-    padding-bottom: 90px;
-    align-items: center;
- 
+   margin-left: 230px;
+   margin-top: 168px;
+   margin-bottom: 90px;
+
 }
 
 .buttons-items{
     list-style: none;
     display: inline-flex;
+    justify-content: center;
     margin-left: 5px;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
     
 }
 
