@@ -51,10 +51,12 @@ a {
 }
 .container-container-header{
     display: flex;
-    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    border-bottom: solid 0.5px var(--color-of-paragraphs);
 }
+
+
 
 .header-web {
     font-family: 'Raleway';
