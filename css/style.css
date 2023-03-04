@@ -156,7 +156,7 @@ margin-left: auto;
 /*Section 1*/
 .section{
     padding-top: 120px;
-    padding-bottom: 120px;
+   
 }
 .container-section {
     width: 1158px;
@@ -307,12 +307,17 @@ margin-left: auto;
 }
 
 /*Section 3*/
+
+.section-section-what{
+    margin-top: 120px;
+}
 .container{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     justify-content: center;
 }
+
 
 .info-title {
     font-style: normal;
