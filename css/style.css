@@ -154,7 +154,10 @@ margin-left: auto;
 }
 
 /*Section 1*/
-
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .container-section {
     width: 1158px;
     margin: 0 auto;
@@ -162,7 +165,7 @@ margin-left: auto;
     justify-content: center;
 }
 
-.hero {
+.section-section-hero {
     background: var(--accent-text-color);
     padding-top: 188px;
     padding-bottom: 188px;
@@ -215,9 +218,7 @@ margin-left: auto;
 
 
 /* Section 2 */
-.section{
-  margin-top: 120px;
-}
+
 
 .container-advantages{
     width: 1158px;
