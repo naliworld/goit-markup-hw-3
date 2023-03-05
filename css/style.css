@@ -182,6 +182,7 @@ margin-left: auto;
     text-align: center;
     height: 120px;
     width: 494px;
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
@@ -329,8 +330,7 @@ margin-left: auto;
     color: var(--accent-text-color);
     display: flex;
     justify-content: center;
-    padding-bottom: 72px;
-    margin: 0 auto;
+    margin-bottom: 72px;
     padding: 0 auto;
 }
 
@@ -399,7 +399,8 @@ margin-left: auto;
     border: 1px solid var(--color-of-paragraphs-two);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    
+    margin: 0;
+    padding: 0;
 }
 
 .team-position {
@@ -409,25 +410,17 @@ margin-left: auto;
     font-size: 16px;
     line-height: 24px;
     color: var(--color-of-paragraphs);
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .team-nm{
     text-align: center;
+    padding-left: 10px;
+    margin: 0;
 }
 
-.team-mark{
-    padding-left: 10px;
-}
-.team-tom{
-    padding-left: 10px;
-}
-.team-camila{
-    padding-left: 10px;
-}
-.team-daniel{
-    padding-left: 10px;
-}
+
+
 
 /*Footer*/
 
@@ -547,7 +540,7 @@ margin-left: auto;
     font-weight: 500;
     font-size: 16px;
     transition-duration: 0.4s;
-    border: 1 px solid var(--color-of-paragraphs-two);
+    border: 1px solid var(--color-of-paragraphs-two);
     border-radius: 4px;
     background-color: var(--accent-color-three);
     text-decoration: none;
@@ -591,6 +584,7 @@ margin-left: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0;
 }
 
 
@@ -601,6 +595,7 @@ margin-left: auto;
     padding-left: 16px;
     padding-bottom: 32px;
     gap: 8px;
+    margin: 0;
 }
 
 
